@@ -1,37 +1,165 @@
-{
-    "people": [
-        {"name": "Mike Heckerman"},
-        {"name": "Roy Cade III"},
-        {"name": "Santiago Montanez"},
-        {"name": "Chainarung Dechyothin"},
-        {"name": "Mason Quilon"},
-        {"name": "Darryl Patton"},
-        {"name": "Juan Heredia"},
-        {"name": "Brock Spacek"},
-        {"name": "Kassandra Spacek"},
-        {"name": "Ian Chesley"},
-        {"name": "Alexander Soria"},
-        {"name": "Anthony Duran"},
-        {"name": "Andrew Sayasing"},
-        {"name": "Robert Grijalva"},
-        {"name": "Nolan Parker"},
-        {"name": "Thao Vang"},
-        {"name": "Aaron Robinson"},
-        {"name": "David Monterrosa"},
-        {"name": "Karen-anne Cadavos"},
-        {"name": "Tanush Kumar"},
-        {"name": "Bowen Henry"},
-        {"name": "Alan Batres"},
-        {"name": "Gianpaolo Reinares"},
-        {"name": "Josue Rosales"},
-        {"name": "Andrie Amor"},
-        {"name": "Bronel Lazar"},
-        {"name": "Angel Cuevas"},
-        {"name": "Chris Wells-Hott"},
-        {"name": "Charles Orr"},
-        {"name": "Isaiah Furguson"},
-        {"name": "Ken Martinez"},
-        {"name": "Bryan Stewart"},
-        {"name": "Jacob Dekok"}
-    ]
-}
+
+    {
+        "people": [
+            {
+                "names": "Mike Heckerman",
+                "codestackEmail": "mheckerman@codestack.co",
+                "personalEmail": "mkheck13@gmail.com"
+            },
+            {
+                "names": "Roy Cade III",
+                "codestackEmail": "rcade@codestack.co",
+                "personalEmail": "roytreslll@gmail.com"
+            },
+            {
+                "names": "Santiago Montanez",
+                "codestackEmail": "smontanez@codestack.co",
+                "personalEmail": "santiagomm44@gmail.com"
+            },
+            {
+                "names": "Chainarung Dechyothin",
+                "codestackEmail": "cdechyothin@codestack.co",
+                "personalEmail": "cdechyothin@gmail.com"
+            },
+            {
+                "names": "Mason Quilon",
+                "codestackEmail": "mquilon@codestack.co",
+                "personalEmail": "Quilonmason@gmail.com"
+            },
+            {
+                "names": "Darryl Patton",
+                "codestackEmail": "DPatton@codestack.co",
+                "personalEmail": "DLamarPatton@gmail.com"
+            },
+            {
+                "names": "Juan Heredia",
+                "codestackEmail": "jheredia@codestack.co",
+                "personalEmail": "madnes0205@gmail.com"
+            },
+            {
+                "names": "Brock Spacek",
+                "codestackEmail": "bspacek@codestack.co",
+                "personalEmail": "brockspacek1@gmail.com"
+            },
+            {
+                "names": "Kassandra Spacek",
+                "codestackEmail": "kspacek@codestack.co",
+                "personalEmail": "kassiespacek101@gmail.com"
+            },
+            {
+                "names": "Ian Chesley",
+                "codestackEmail": "ichesley@codestack.co",
+                "personalEmail": "ianchesley@yahoo.com"
+            },
+            {
+                "names": "Alexander Soria",
+                "codestackEmail": "asoria@codestack.co",
+                "personalEmail": "yoda4115@gmail.com"
+            },
+            {
+                "names": "Anthony Duran",
+                "codestackEmail": "aduran@codestack.co",
+                "personalEmail": "anthonyaduran6@gmail.com"
+            },
+            {
+                "names": "Andrew Sayasing",
+                "codestackEmail": "asayasing@codestack.co",
+                "personalEmail": "gettosheep56@gmail.com"
+            },
+            {
+                "names": "Robert Grijalva",
+                "codestackEmail": "rgrijalva@codestack.co",
+                "personalEmail": "grijrob07@gmail.com"
+            },
+            {
+                "names": "Nolan Parker",
+                "codestackEmail": "NParker@codestack.co",
+                "personalEmail": "nolanrparker@gmail.com"
+            },
+            {
+                "names": "Thao Vang",
+                "codestackEmail": "tvang@codestack.co",
+                "personalEmail": "vangt39@gmail.com"
+            },
+            {
+                "names": "Aaron Robinson",
+                "codestackEmail": "arobinson@codestack.co",
+                "personalEmail": "aarmon5@gmail.com"
+            },
+            {
+                "names": "David Monterrosa",
+                "codestackEmail": "dmonterrosa@codestack.co",
+                "personalEmail": "dmonterrosa99@gmail.com"
+            },
+            {
+                "names": "Karen-anne Cadavos",
+                "codestackEmail": "kcadavos@codestack.co",
+                "personalEmail": "karencadavos@gmail.com"
+            },
+            {
+                "names": "Tanush Kumar",
+                "codestackEmail": "tkumar@codestack.co",
+                "personalEmail": "nush8653@gmail.com"
+            },
+            {
+                "names": "Bowen Henry",
+                "codestackEmail": "bhenry@codestack.co",
+                "personalEmail": "bhenry3145@gmail.com"
+            },
+            {
+                "names": "Alan Batres",
+                "codestackEmail": "abatres@codestack.co",
+                "personalEmail": "alanbatres328@gmail.com"
+            },
+            {
+                "names": "Gianpaolo Reinares",
+                "codestackEmail": "greinares@codestack.co",
+                "personalEmail": "gprcards@gmail.com"
+            },
+            {
+                "names": "Josue Rosales",
+                "codestackEmail": "jrosales@codestack.co",
+                "personalEmail": "Josue04Rosales@gmail.com"
+            },
+            {
+                "names": "Andrie Amor",
+                "codestackEmail": "aamor@codedstack.co",
+                "personalEmail": "amorandrie5@gmail.com"
+            },
+            {
+                "names": "Bronel Lazar",
+                "codestackEmail": "blazar@codestack.co",
+                "personalEmail": "bronellazar@gmail.com"
+            },
+            {
+                "names": "Angel Cuevas",
+                "codestackEmail": "acuevas@codestack.co",
+                "personalEmail": "aocuevas123@gmail.com"
+            },
+            {
+                "names": "Chris Wells-Hott",
+                "codestackEmail": "cwellshott@codestack.co",
+                "personalEmail": "cwellshott@gmail.com"
+            },
+            {
+                "names": "Charles Orr",
+                "codestackEmail": "corr@codestack.co",
+                "personalEmail": "Chas2687@gmail.com"
+            },
+            {
+                "names": "Ken Martinez",
+                "codestackEmail": "kmartinez@codestack.co",
+                "personalEmail": "kmartinez@sjcoe.net"
+            },
+            {
+                "names": "Bryan Stewart",
+                "codestackEmail": "bstewart@codestack.co",
+                "personalEmail": "bstewart@sjcoe.net"
+            },
+            {
+                "names": "Isaiah Ferguson",
+                "codestackEmail": "iferguson@codestack.co",
+                "personalEmail": "iferguson@sjcoe.net"
+            }
+        ]
+    }

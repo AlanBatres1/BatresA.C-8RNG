@@ -1,5 +1,11 @@
 
-let name = document.getElementById('name');
+let names = document.getElementById('names');
+let codestackEmail = document.getElementById('codestackEmail');
+let personalEmail = document.getElementById('personalEmail');
+let personBtn = document.getElementById('personBtn')
+let previousStudentsList = document.getElementById('previousStudents');
+let previousStudents = [];
+let maxPreviousStudents = 5;
 
 function getStudentData(){
    return fetch('../data/data.json')
@@ -17,14 +23,31 @@ function getRandomPerson(people){
     console.log([randomIndex]);
     return people[randomIndex];
 } 
-
-
-//Create a function that will display the data onto the DOM
 personBtn.addEventListener('click', () => {
     getStudentData().then( people => {
         let randomStudent = getRandomPerson(people);
         console.log(randomStudent);
-        name.innerText = randomStudent.name;
-        
+        names.innerText = randomStudent.names;
+        codestackEmail.innerText = randomStudent.codestackEmail
+        personalEmail.innerText = randomStudent.personalEmail
+        updatePreviousStudents(randomStudent);
     })
 });
+
+
+function updatePreviousStudents(newStudent) {
+    if (previousStudents.length >= maxPreviousStudents) {
+        previousStudents.pop();
+    }
+    
+    previousStudents.unshift(newStudent);
+    
+  
+    previousStudentsList.innerHTML = previousStudents.map((student, index) => 
+        `<li>
+            ${index + 1}. ${student.names}<br>
+            CodeStack Email: ${student.codestackEmail}<br>
+            Personal Email: ${student.personalEmail}
+        </li>`
+    ).join('');
+}
