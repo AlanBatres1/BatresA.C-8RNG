@@ -4,3 +4,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.white{
+   
+    background: rgba(255, 255, 255, 0.381);
+}
